@@ -204,7 +204,8 @@ public class TYNormalTextField: UIView {
     
     //MARK: - Helpers
     private func setUp(frame: CGRect) {
-        self._textField = createTextField(frame: frame)
+        let tf = createTextField(frame: frame)
+        self._textField = tf
         _textField._delegate = self
         _textField.delegate = self
         _textField.setContentCompressionResistancePriority(.required, for: .horizontal)

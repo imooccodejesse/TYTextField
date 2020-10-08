@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TYTextField'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A simple textfield framework which include phone number and pin code input'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/werurty@163.com/TYTextField'
+  s.homepage         = 'https://github.com/imooccodejesse/TYTextField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'werurty@163.com' => "tyacal9527@gmail.com" }
-  s.source           = { :git => 'https://github.com/fishmanlol/TYTextField.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/imooccodejesse/TYTextField.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
